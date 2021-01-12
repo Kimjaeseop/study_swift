@@ -1,6 +1,6 @@
 # Creating and Combining View #
 
-## Section 1 ~ 3 : Landmarks ##
+## Section 1 ~ 3 ##
 
 ### 텍스트 박스 컴포넌트 제어 ###
 
@@ -38,6 +38,14 @@
 ### Section6 : Compose the Detail View ###
 
 * VStack으로 지도, 이미지, 텍스트를 쌓고 CircleImage의 offset 메소드로 이미지의 세로 위치를 조정하고, padding으로 CircleImage와 Text의 간격을 조정한다.
+* IgnoresSafeArea(_:edges:)
+	* Expands the view out of its safe area.
+	* https://developer.apple.com/documentation/swiftui/view/ignoressafearea(_:edges:)
+* Divider()
+	* 회색줄로 구분자 추가
+* Text뿐 아니라 HStack, VStack과 같은 Stack에도 폰트, 색상 조절 메소드를 부착할 수 있다.
+* foregroundColor의 인자로 색상이 아닌 ".secondary"가 주어지면 타이틀을 설명하는 듯한 회색 텍스트로 변환된다.
+
 
 
 
