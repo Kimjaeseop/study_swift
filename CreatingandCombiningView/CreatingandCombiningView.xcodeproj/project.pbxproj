@@ -35,16 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		561420E825AC115A003A72EB /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		561420E825AC115A003A72EB /* CreatingandCombiningView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreatingandCombiningView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		561420EB25AC115A003A72EB /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		561420ED25AC115A003A72EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		561420EF25AC115C003A72EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		561420F225AC115C003A72EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		561420F425AC115C003A72EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		561420F925AC115C003A72EB /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561420F925AC115C003A72EB /* CreatingandCombiningViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatingandCombiningViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		561420FD25AC115C003A72EB /* LandmarksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksTests.swift; sourceTree = "<group>"; };
 		561420FF25AC115C003A72EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5614210425AC115C003A72EB /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5614210425AC115C003A72EB /* CreatingandCombiningViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatingandCombiningViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5614210825AC115C003A72EB /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		5614210A25AC115C003A72EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5667BABA25AC31CB009164BB /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		561420DF25AC115A003A72EB = {
 			isa = PBXGroup;
 			children = (
-				561420EA25AC115A003A72EB /* Landmarks */,
+				561420EA25AC115A003A72EB /* CreatingandCombiningView */,
 				561420FC25AC115C003A72EB /* LandmarksTests */,
 				5614210725AC115C003A72EB /* LandmarksUITests */,
 				561420E925AC115A003A72EB /* Products */,
@@ -89,14 +89,14 @@
 		561420E925AC115A003A72EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				561420E825AC115A003A72EB /* Landmarks.app */,
-				561420F925AC115C003A72EB /* LandmarksTests.xctest */,
-				5614210425AC115C003A72EB /* LandmarksUITests.xctest */,
+				561420E825AC115A003A72EB /* CreatingandCombiningView.app */,
+				561420F925AC115C003A72EB /* CreatingandCombiningViewTests.xctest */,
+				5614210425AC115C003A72EB /* CreatingandCombiningViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		561420EA25AC115A003A72EB /* Landmarks */ = {
+		561420EA25AC115A003A72EB /* CreatingandCombiningView */ = {
 			isa = PBXGroup;
 			children = (
 				561420EB25AC115A003A72EB /* LandmarksApp.swift */,
@@ -107,7 +107,7 @@
 				561420F425AC115C003A72EB /* Info.plist */,
 				561420F125AC115C003A72EB /* Preview Content */,
 			);
-			path = Landmarks;
+			path = CreatingandCombiningView;
 			sourceTree = "<group>";
 		};
 		561420F125AC115C003A72EB /* Preview Content */ = {
@@ -139,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		561420E725AC115A003A72EB /* Landmarks */ = {
+		561420E725AC115A003A72EB /* CreatingandCombiningView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5614210D25AC115C003A72EB /* Build configuration list for PBXNativeTarget "Landmarks" */;
+			buildConfigurationList = 5614210D25AC115C003A72EB /* Build configuration list for PBXNativeTarget "CreatingandCombiningView" */;
 			buildPhases = (
 				561420E425AC115A003A72EB /* Sources */,
 				561420E525AC115A003A72EB /* Frameworks */,
@@ -151,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = Landmarks;
+			name = CreatingandCombiningView;
 			productName = Landmarks;
-			productReference = 561420E825AC115A003A72EB /* Landmarks.app */;
+			productReference = 561420E825AC115A003A72EB /* CreatingandCombiningView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		561420F825AC115C003A72EB /* LandmarksTests */ = {
+		561420F825AC115C003A72EB /* CreatingandCombiningViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5614211025AC115C003A72EB /* Build configuration list for PBXNativeTarget "LandmarksTests" */;
+			buildConfigurationList = 5614211025AC115C003A72EB /* Build configuration list for PBXNativeTarget "CreatingandCombiningViewTests" */;
 			buildPhases = (
 				561420F525AC115C003A72EB /* Sources */,
 				561420F625AC115C003A72EB /* Frameworks */,
@@ -169,14 +169,14 @@
 			dependencies = (
 				561420FB25AC115C003A72EB /* PBXTargetDependency */,
 			);
-			name = LandmarksTests;
+			name = CreatingandCombiningViewTests;
 			productName = LandmarksTests;
-			productReference = 561420F925AC115C003A72EB /* LandmarksTests.xctest */;
+			productReference = 561420F925AC115C003A72EB /* CreatingandCombiningViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5614210325AC115C003A72EB /* LandmarksUITests */ = {
+		5614210325AC115C003A72EB /* CreatingandCombiningViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5614211325AC115C003A72EB /* Build configuration list for PBXNativeTarget "LandmarksUITests" */;
+			buildConfigurationList = 5614211325AC115C003A72EB /* Build configuration list for PBXNativeTarget "CreatingandCombiningViewUITests" */;
 			buildPhases = (
 				5614210025AC115C003A72EB /* Sources */,
 				5614210125AC115C003A72EB /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				5614210625AC115C003A72EB /* PBXTargetDependency */,
 			);
-			name = LandmarksUITests;
+			name = CreatingandCombiningViewUITests;
 			productName = LandmarksUITests;
-			productReference = 5614210425AC115C003A72EB /* LandmarksUITests.xctest */;
+			productReference = 5614210425AC115C003A72EB /* CreatingandCombiningViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 561420E325AC115A003A72EB /* Build configuration list for PBXProject "Landmarks" */;
+			buildConfigurationList = 561420E325AC115A003A72EB /* Build configuration list for PBXProject "CreatingandCombiningView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				561420E725AC115A003A72EB /* Landmarks */,
-				561420F825AC115C003A72EB /* LandmarksTests */,
-				5614210325AC115C003A72EB /* LandmarksUITests */,
+				561420E725AC115A003A72EB /* CreatingandCombiningView */,
+				561420F825AC115C003A72EB /* CreatingandCombiningViewTests */,
+				5614210325AC115C003A72EB /* CreatingandCombiningViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		561420FB25AC115C003A72EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 561420E725AC115A003A72EB /* Landmarks */;
+			target = 561420E725AC115A003A72EB /* CreatingandCombiningView */;
 			targetProxy = 561420FA25AC115C003A72EB /* PBXContainerItemProxy */;
 		};
 		5614210625AC115C003A72EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 561420E725AC115A003A72EB /* Landmarks */;
+			target = 561420E725AC115A003A72EB /* CreatingandCombiningView */;
 			targetProxy = 5614210525AC115C003A72EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -426,15 +426,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CreatingandCombiningView/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_FILE = CreatingandCombiningView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = JaeseopKim.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = JaeseopKim.CreatingandCombiningView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,15 +447,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CreatingandCombiningView/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_FILE = CreatingandCombiningView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = JaeseopKim.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = JaeseopKim.CreatingandCombiningView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -479,7 +479,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/Landmarks";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreatingandCombiningView.app/CreatingandCombiningView";
 			};
 			name = Debug;
 		};
@@ -500,7 +500,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/Landmarks";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreatingandCombiningView.app/CreatingandCombiningView";
 			};
 			name = Release;
 		};
@@ -545,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		561420E325AC115A003A72EB /* Build configuration list for PBXProject "Landmarks" */ = {
+		561420E325AC115A003A72EB /* Build configuration list for PBXProject "CreatingandCombiningView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5614210B25AC115C003A72EB /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5614210D25AC115C003A72EB /* Build configuration list for PBXNativeTarget "Landmarks" */ = {
+		5614210D25AC115C003A72EB /* Build configuration list for PBXNativeTarget "CreatingandCombiningView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5614210E25AC115C003A72EB /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5614211025AC115C003A72EB /* Build configuration list for PBXNativeTarget "LandmarksTests" */ = {
+		5614211025AC115C003A72EB /* Build configuration list for PBXNativeTarget "CreatingandCombiningViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5614211125AC115C003A72EB /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5614211325AC115C003A72EB /* Build configuration list for PBXNativeTarget "LandmarksUITests" */ = {
+		5614211325AC115C003A72EB /* Build configuration list for PBXNativeTarget "CreatingandCombiningViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5614211425AC115C003A72EB /* Debug */,

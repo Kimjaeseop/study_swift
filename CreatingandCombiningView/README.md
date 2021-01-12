@@ -12,7 +12,7 @@
 
 ### 이미지 로드 및 속성 제어 ###
 
-* File > New > File > SwiftUI View로 레이아웃 추가 가
+* File > New > File > SwiftUI View로 레이아웃 추가
 * Image(filename)으로 Imageview 생성 가능 (그 전에 Assets.xcassets에 이미지 파일을 추가해주어야 한다.)
 * clipShape(shapetype)으로 이미지 모양 변경 가능
     * example) clipShape(Circle())
@@ -21,7 +21,7 @@
 * clipShape의 메소드 shadow로 이미지에 테두리에 대한 그림자를 지정 가능
     * example) clipShape(~).shadow(radius: 7)
 
-### Section5 : Use SwiftUI Views From Other Frameworks ###
+## Section5 : Use SwiftUI Views From Other Frameworks ##
 
 * Mapkit을 사용하기 위해 import Mapkit
 * region 변수를 통해 위치 좌표 지정
@@ -35,7 +35,7 @@
 	* longtitudeDelta : The amount of east-to-west distance (measured in degrees) to display for  the map regions.
 	* https://developer.apple.com/documentation/mapkit/mkcoordinatespan
 
-### Section6 : Compose the Detail View ###
+## Section6 : Compose the Detail View ##
 
 * VStack으로 지도, 이미지, 텍스트를 쌓고 CircleImage의 offset 메소드로 이미지의 세로 위치를 조정하고, padding으로 CircleImage와 Text의 간격을 조정한다.
 * IgnoresSafeArea(_:edges:)
@@ -45,7 +45,3 @@
 	* 회색줄로 구분자 추가
 * Text뿐 아니라 HStack, VStack과 같은 Stack에도 폰트, 색상 조절 메소드를 부착할 수 있다.
 * foregroundColor의 인자로 색상이 아닌 ".secondary"가 주어지면 타이틀을 설명하는 듯한 회색 텍스트로 변환된다.
-
-
-
-
