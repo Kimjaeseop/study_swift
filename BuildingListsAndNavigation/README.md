@@ -43,12 +43,11 @@ print(greet(person: "Brian"))
 
 * 위 설명을 참고하면 코드내에 Hashable, Codable은 Protocol로 보이는데, 다른 언어에서의 상속과 비슷한 개념인 것같다
 * 스위프트에서는 자료구조의 수평적 확장을 위해 Protocol을 사용하고 Protocol시에는 상속이라는 표현을 쓰지 않고 Adoption, Conformance라는 표현을 사용한다는데, 아마 상속처럼 계층적인 구조가 아니기 때문일 것이라고 생각한다.
-* 해당코드는 Language Guide에서 제공하는 것과 타입은 다르지만
 ```Swift
 struct Coordinates: Hashable, Codable { // Adoption
 	var latitude: Double // Conformance
 	var longtitude: Double // Conformance
 ```
-* Adoption으로 프로토콜을 명시하고, Conformance로 요구사항을 구현하는 모습이 같다
+* Adoption으로 프로토콜을 명시하고, Conformance로 요구사항을 구현하는 모습
 
 
