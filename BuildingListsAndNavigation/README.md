@@ -9,7 +9,7 @@
 
 * https://docs.swift.org/swift-book/LanguageGuide/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID166
 #### Defining Function
-```
+```Swift
 func greet(person: String) -> String {
 	let greeting = "Hello, " + person + "!"
 	return greeting
@@ -22,7 +22,7 @@ func greet(person: String) -> String {
 	* 반환 타입만 String으로 지정
 
 #### Calling Function
-```
+```Swift
 print(greet(person: "Anna"))
 // Prints "Hello, Anna!"
 print(greet(person: "Brian"))
