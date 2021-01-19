@@ -33,4 +33,20 @@ print(greet(person: "Brian"))
 * String value를 person argument label 다음 전달
 	* example) greet(person: "Anna")
 
+#### Hashable, Codable in Landmark.swift
+
+* https://daheenallwhite.github.io/swift/2019/06/02/Protocol-Conformance-Adoption/
+* https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID278
+
+> If a type already conforms to all of the requirements of a protocol, but has not yet started that it adopts that protocol, but has not yet started that it adopts that protocol, you can make it adopt the protocol with an empty extension
+
+* 위 설명을 참고하면 코드내에 Hashable, Codable은 Conformance, Adoption. 즉, 상속으로 보인다.
+* Language Guide에서 제공하는 것과 타입은 다르지만
+```Swift
+struct Coordinates: Hashable, Codable { // Adoption
+	var latitude: Double // Conformance
+	var longtitude: Double // Conformance
+```
+* Adoption으로 프로토콜을 명시하고, Conformance로 요구사항을 구현하는 모습이 같다
+
 
