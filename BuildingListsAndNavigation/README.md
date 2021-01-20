@@ -91,5 +91,24 @@ swapTwoValues(&someString, &anotherString)
 #### The placeholder type
 * https://docs.swift.org/swift-book/LanguageGuide/Generics.html
 > 함수의 제네릭 버전은 실제 타입 이름(Int, String, Double) 대신 placeholder 타입을 사용한다.(위 코드에서는 T를 의미).
-> placeholder 타입 이름은 T가 반드시 어떤 타입이 되어야 하는지가 아니다. 그러나 반드시 a와 b는 T로 같은 타입을 가져야 한다.
+> placeholder인 T는 반드시 어떤 타입이 되어야 하는지 명시하는 것이 아니다. 다만 T가 어떤 타입이든 간에 반드시 a와 b는 T로 같은 타입을 가져야 한다.
 > 실제로 T는 함수가 호출될 때마다 실제 타입이 결정된다.
+
+### Function
+#### Omitting Argument Labels
+
+* 만약 매개변수에 대한 argument label을 원하지 않는다면, 명시적으로 argument label을 적는 대신 underscore(_)를 적으면 된다.
+
+```Swift
+func someFunction(_ firstParameterName: Int, secondParameterName: Int) {
+	// In the function body, firstParameterName and secondParameterName
+	// refer to the argument values for the first and second parameters.
+}
+someFunction(1, secondParameterName: 2)
+```
+
+* 위 코드를 보면 함수를 호출 할 때, _가 붙어 있는 매개변수는 argument label가 없는 것을 알 수 있다.
+* 매개변수에 argument label이 있다면, argument는 반드시 함수를 호출할 때 라벨 되어 있어야 한다.
+
+
+
