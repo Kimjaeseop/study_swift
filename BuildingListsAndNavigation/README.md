@@ -2,6 +2,8 @@
 
 ## Section1 : Create a Landmark Model
 
+## Landmark.swift
+
 ### let, var 차이
 * let : 상수, var : 변수
 
@@ -33,7 +35,7 @@ print(greet(person: "Brian"))
 * String value를 person argument label 다음 전달
 	* example) greet(person: "Anna")
 
-#### Hashable, Codable in Landmark.swift
+#### Hashable, Codable
 
 * https://daheenallwhite.github.io/swift/2019/06/02/Protocol-Conformance-Adoption/
 * https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID278
