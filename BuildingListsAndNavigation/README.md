@@ -51,6 +51,7 @@ struct Coordinates: Hashable, Codable { // Adoption
 ```
 * Adoption으로 프로토콜을 명시하고, Conformance로 요구사항을 구현하는 모습
 
+----------------------------------------
 [**ModelData.swift**](https://github.com/Kimjaeseop/study_swift/blob/main/BuildingListsAndNavigation/Complete/Landmarks/Model/ModelData.swift)
 
 ### Generic Function
@@ -72,7 +73,7 @@ func swapTwoValues<T>(_ a: inout T, _ b: inout T) {
 }
 ```
 
-* 위와 아래의 함수원형을 비교해보면 제네릭의 사용 유무인데, 위 함수의 경우는 Int type의 값만 바꿀 수 있는 반면 밑의 함수는 문자열등 모든 타입을 받을 수 있다.
+* 위와 아래의 함수원형을 비교해보면 제네릭의 사용 유무인데, 위 함수의 경우는 Int type의 값만 바꿀 수 있는 반면 밑의 함수는 문자열등 모든 타입을 바꿀 수 있다.
 
 **Example**
 ```Swift
