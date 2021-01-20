@@ -2,7 +2,7 @@
 
 ## Section1 : Create a Landmark Model
 
-[Landmark.swift](https://github.com/Kimjaeseop/study_swift/blob/main/BuildingListsAndNavigation/Complete/Landmarks/Model/Landmark.swift)
+[**Landmark.swift**](https://github.com/Kimjaeseop/study_swift/blob/main/BuildingListsAndNavigation/Complete/Landmarks/Model/Landmark.swift)
 ### let, var 차이
 * let : 상수, var : 변수
 
