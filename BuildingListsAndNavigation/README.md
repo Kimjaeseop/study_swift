@@ -2,7 +2,7 @@
 
 ## Section1 : Create a Landmark Model
 
-## Landmark.swift
+<Landmark.swift>
 
 ### let, var 차이
 * let : 상수, var : 변수
