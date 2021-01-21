@@ -109,6 +109,3 @@ someFunction(1, secondParameterName: 2)
 
 * 위 코드를 보면 함수를 호출 할 때, _가 붙어 있는 매개변수는 argument label가 없는 것을 알 수 있다.
 * 매개변수에 argument label이 있다면, argument는 반드시 함수를 호출할 때 라벨 되어 있어야 한다.
-
-
-
