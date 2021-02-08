@@ -110,8 +110,35 @@ someFunction(1, secondParameterName: 2)
 * 위 코드를 보면 함수를 호출 할 때, _가 붙어 있는 매개변수는 argument label가 없는 것을 알 수 있다.
 * 매개변수에 argument label이 있다면, argument는 반드시 함수를 호출할 때 라벨 되어 있어야 한다.
 
+## Section2 : Create the Row View
 ### 지금까지 파악한 구조
 1. Landmark.swift에서 Json data를 parsing 받기 위한 struct 구조를 만든다
 1. ModelData.swift에 Json data를 구조체에 parsing 받고 예외 처리를 하면
 1. LandmarkRow.swift에서 view만 생성해서 아주 간단하게 받아 올 수있다.
-> C언어만 해서 그런지 너무 신기하다 
+
+## Section3 : Customize the Row Preview
+
+## Section6 : Set Up Navigation Between List and Detail
+
+* ContentView.swift가 view의 메인 함수와 같은 느낌인 것 같다
+
+### NavigationView
+
+* https://developer.apple.com/documentation/swiftui/navigationview
+* A view for presenting a stack of views that represent visible path in a navigation hierarchy
+	* naviagation heierarchy 에서 경로를 표시하는 view라고 생각하면 될 듯
+	* 계층을 두고 navigation을 display하는 view
+
+#### NavigationLink
+
+* NavigationView와 또 다른 view를 연결해준다.
+	* NavigationView에서 항목을 클릭하면 다른 view를 띄울 수 있도록 함
+
+## Section7 : Pass Data into Child Views
+
+```Swift
+.navigationTitle(landmark.name)
+.navigationBarTitleDisplayMode(.inline)
+```
+
+* 디테일 뷰를 보여줄 땐 네비게이션의 타이틀을 디테일 뷰의 이름을 따름
