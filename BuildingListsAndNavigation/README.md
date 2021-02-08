@@ -109,3 +109,8 @@ someFunction(1, secondParameterName: 2)
 
 * 위 코드를 보면 함수를 호출 할 때, _가 붙어 있는 매개변수는 argument label가 없는 것을 알 수 있다.
 * 매개변수에 argument label이 있다면, argument는 반드시 함수를 호출할 때 라벨 되어 있어야 한다.
+
+> Landmark.swift에서 Json data를 parsing 받기 위한 struct 구조를 만든다
+> ModelData.swift에 Json data를 구조체에 parsing 받고 예외 처리를 하면
+> LandmarkRow.swift에서 view만 생성해서 아주 간단하게 받아 올 수있다.
+> C언어만 해서 그런지 너무 신기하다 
